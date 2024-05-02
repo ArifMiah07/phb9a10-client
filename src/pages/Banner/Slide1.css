@@ -1,0 +1,7 @@
+.bgg {
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url(../../../public/images/wallpaperflare.com_wallpaper.jpg) no-repeat center center/cover;
+    /* width: 100%;
+    height: fit-content; */
+  }
+  
