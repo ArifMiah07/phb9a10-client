@@ -1,36 +1,24 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Autoplay, Pagination, Scrollbar, A11y } from 'swiper/modules';
-import 'swiper/css/bundle';
-import './Banner.css';
-import { Link } from "react-router-dom";
-import Slide1 from './Slide1';
-import Slide2 from './Slides/Slide2/Slide2';
-import Slide3 from './Slides/Slide3/Slide3';
+import PropTypes from 'prop-types';
+import Marquee from 'react-fast-marquee';
 
-const Banner = () => {
+const Banner = ({ ts }) => {
+    const { image } = ts;
+
     return (
-        <div className=' mx-auto flex justify-center text-white font-black text-[56px]'>
-            <Swiper
-                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={1}
-                navigation
-                pagination={{ clickable: true }}
-                scrollbar={{ draggable: true }}
-                onSwiper={(swiper) => console.log(swiper)}
-            >
-                <SwiperSlide><Slide1></Slide1>  </SwiperSlide>
-                <SwiperSlide> <Slide2></Slide2> </SwiperSlide>
-                <SwiperSlide> <Slide3></Slide3> </SwiperSlide>
-                <SwiperSlide>Slide 4</SwiperSlide>
-                <SwiperSlide>Slide 5</SwiperSlide>
-                <SwiperSlide>Slide 6</SwiperSlide>
-                <SwiperSlide>Slide 7</SwiperSlide>
-                <SwiperSlide>Slide 8</SwiperSlide>
-                <SwiperSlide>Slide 9</SwiperSlide>
-            </Swiper>
+        <div className='w-full'>
+            <Marquee speed={0.05}>
+                <div className="rounded-lg w-fit">
+                    <div>
+                        <img className='rounded-lg' src={image} alt="" />
+                    </div>          
+                </div>
+            </Marquee>
         </div>
     );
+};
+
+Banner.propTypes = {
+    ts: PropTypes.object
 };
 
 export default Banner;

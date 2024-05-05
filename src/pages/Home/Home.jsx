@@ -28,7 +28,7 @@ const Home = () => {
                     <Header></Header>
                 </div>
                 <div className="flex flex-col md:flex md:flex-col lg:flex lg:flex-row">
-                    <div className="p-6">
+                    <div className="flex flex-col gap-6 p-6 drop-shadow-lg">
                         {
                             southAsiaData && southAsiaData.map((southAsia, idx) => (
                                 <Countries key={idx} southAsia={southAsia} ></Countries>
@@ -36,7 +36,7 @@ const Home = () => {
                         }
                     </div>
                     {/* aside */}
-                    <div className="w-fit h-fit ">
+                    <div className="flex flex-row flex-wrap lg:flex lg:flex-col w-fit h-fit ">
                         <Aside></Aside>
                     </div>
                 </div>
