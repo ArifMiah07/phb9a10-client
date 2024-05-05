@@ -22,11 +22,11 @@ const Header = () => {
                 </div>
             </div>
             {/* floating text div */}
-            <div className='my-12 md:mb-24 lg:mb-40 md:relative lg:relative w-[400px] md:w-[800px] lg:w-[1170px] bg-red-400  mx-auto'>
+            <div className='my-12 md:mb-24 lg:mb-40 md:relative lg:relative w-10/12 md:w-10/12 lg:w-10/12 bg-red-400  mx-auto'>
                 <div className='p-8   md:absolute md:-top-32 lg:absolute lg:-top-32 bg-[#fff]  w-full mx-auto drop-shadow-xl'>
                     <h1 className='mb-6 text-[#3A3A3A] text-[20px] lg:text-[30px] text-center playfair'>Your Ultimate Sustainable Travel Guide Experience</h1>
-                    <p className='block text-[#3A3A3A] text-[14px] lg:text-[15px] lg:hidden mulish'>Embark on a transformative journey with Eco Wonderland, the leading tourist management platform dedicated to sustainable travel, immersive nature experiences, and fostering environmental stewardship on a global scale.</p>
-                    <p className='text-[#3A3A3A] text-[14px] lg:text-[17px] hidden md:hidden lg:block  mulish  '>Eco Wonderland is your gateway to a world of eco-conscious travel, offering a blend of breathtaking landscapes, cultural richness, and sustainable experiences. Explore our curated destinations and embark on transformative journeys that prioritize environmental preservation, community engagement, and authentic cultural interactions, making every trip an enriching and responsible adventure.</p>
+                    <p className='block text-[#3a3a3adc] text-[14px] lg:text-[15px] lg:hidden mulish'>Embark on a transformative journey with Eco Wonderland, the leading tourist management platform dedicated to sustainable travel, immersive nature experiences, and fostering environmental stewardship on a global scale.</p>
+                    <p className='text-[#3a3a3adc]  text-[14px] lg:text-[17px] hidden md:hidden lg:block  mulish  '>Eco Wonderland is your gateway to a world of eco-conscious travel, offering a blend of breathtaking landscapes, cultural richness, and sustainable experiences. Explore our curated destinations and embark on transformative journeys that prioritize environmental preservation, community engagement, and authentic cultural interactions, making every trip an enriching and responsible adventure.</p>
                 </div>
             </div>
         </div>
