@@ -5,7 +5,7 @@ import '../../../index.css'
 
 const Navbar = () => {
     return (
-        <div className="  poppins   navbar flex lg:flex lg:flex-col ">
+        <div className="roboto navbar flex justify-between px-12 lg:flex lg:flex-col ">
             <div className="navbar-start lg:flex lg:flex-col lg:items-center ">
                 {/* <a className="btn">Button</a> */}
                 <div className='lg:flex lg:flex-col lg:items-center '>

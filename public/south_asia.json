@@ -2,12 +2,12 @@
       {
         "name": "Bangladesh",
         "description": "Bangladesh, located in South Asia, is known for its lush landscapes, vibrant culture, and rich history. It is home to the world's largest river delta, the Sundarbans mangrove forest, and a diverse range of flora and fauna. The country's cultural heritage includes traditional music, dance, and art forms like Nakshi Kantha embroidery and Jamdani weaving. Bangladesh offers visitors a blend of natural beauty, historical sites, and warm hospitality.",
-        "img": "https://i.pinimg.com/originals/52/dd/dd/52dddd8d3af5708cbf2d76409f450741.jpg",
+        "img":[ "https://i.pinimg.com/originals/52/dd/dd/52dddd8d3af5708cbf2d76409f450741.jpg", "https://i.ibb.co/M2Bq06H/bangladesh.jpg"],
         "id": 1,
 
         "touristSpots": [
             {
-              "id" : 1,
+              "id":"1",
             "title": "Sundarban",
             "description": "The Sundarbans mangrove forest, one of the largest of its kind in the world, is a UNESCO World Heritage Site and home to the Royal Bengal tiger. It covers an area of about 10,000 square kilometers across India and Bangladesh and is a critical habitat for numerous species of flora and fauna.",
             "image": "https://i.pinimg.com/564x/c7/2e/ed/c72eed2db711e59d68840b5dbf8c1125.jpg",
@@ -16,7 +16,7 @@
             "booking_price": "$100/person"
           },
           {
-            "id" : 2,
+            "id" :"2",
             "title": "Cox’s Bazar",
             "description": "Cox's Bazar is famous for its long sandy beach and is a popular destination for tourists seeking sun, sea, and relaxation. Stretching over 120 kilometers, it is one of the longest natural sea beaches in the world. The beach town offers activities such as beach walks, water sports, and visits to nearby attractions like Himchari National Park.",
             "image": "https://i.pinimg.com/564x/db/79/4b/db794bc3dd4b9a73eef74635ebf47314.jpg",
@@ -25,7 +25,7 @@
             "booking_price": "$150/person"
           },
           {
-            "id" : 3,
+            "id" :"3",
             "title": "Rangamati",
             "description": "Rangamati is known for its picturesque landscapes, indigenous communities, and the beautiful Kaptai Lake. The hill town is a perfect retreat for nature lovers, offering opportunities for boating on the lake, exploring tribal culture, and hiking in the surrounding hills.",
             "image": "https://i.pinimg.com/originals/58/64/e4/5864e4cefd77353eb6ceb4b3184866a7.jpg",
@@ -34,7 +34,7 @@
             "booking_price": "$120/person"
           },
           {
-            "id" : 4,
+            "id" :"4",
             "title": "Bandarban",
             "description": "Bandarban offers stunning hill landscapes, tribal culture, and opportunities for trekking and adventure. It is home to Bangladesh's highest peak, Tahjindong, and attractions like Nilgiri Hills, Boga Lake, and the tribal villages of the indigenous communities.",
             "image": "https://i.pinimg.com/564x/32/67/aa/3267aa0a1af5ec7e6281bb0335ff3938.jpg",
@@ -43,7 +43,7 @@
             "booking_price": "$110/person"
           },
           {
-            "id" : 5,
+            "id" :"5",
             "title": "Saint Martin’s Island",
             "description": "Saint Martin’s Island is known for its pristine beaches, clear blue waters, and coral reefs, making it a paradise for snorkelers and divers. The island offers a laid-back atmosphere, with activities such as snorkeling, beachcombing, and enjoying fresh seafood at local eateries.",
             "image": "https://i.pinimg.com/564x/29/b4/59/29b45941879a893e9bfaa4a923ffbebf.jpg",
@@ -56,12 +56,12 @@
       {
         "name": "Thailand",
         "description": "Thailand, known as the Land of Smiles, is famous for its tropical beaches, ornate temples, and vibrant culture. From bustling cities like Bangkok to serene islands like Phuket and Koh Samui, Thailand offers a diverse range of experiences for travelers. The country's cuisine, which includes dishes like Pad Thai, Tom Yum Goong, and Mango Sticky Rice, is renowned worldwide. Thailand's warm hospitality and natural beauty attract millions of tourists each year.",
-        "img": "https://i.pinimg.com/564x/8b/84/49/8b8449cf9de2e1880cd774be3157960b.jpg",
+        "img":[ "https://i.pinimg.com/564x/8b/84/49/8b8449cf9de2e1880cd774be3157960b.jpg", "https://i.ibb.co/2ZDLBcB/thailand.jpg"],
         "id": 2,
 
         "touristSpots": [
           {
-            "id" : 1,
+            "id" :"1",
             "title": "Bangkok",
             "description": "Bangkok is a vibrant city known for its temples, street food, nightlife, and shopping experiences. Visitors can explore attractions like the Grand Palace, Wat Pho, Chatuchak Market, and enjoy boat rides along the Chao Phraya River.",
             "image": "https://i.pinimg.com/474x/18/05/f0/1805f092e1b541813dea01d398d0719c.jpg",
@@ -70,7 +70,7 @@
             "booking_price": "$200/person"
           },
           {
-            "id" : 2,
+            "id" :"2",
             "title": "Chiang Mai",
             "description": "Chiang Mai is famous for its ancient temples, cultural festivals, and opportunities for trekking in the nearby mountains. Visitors can explore historic sites such as Wat Phra That Doi Suthep, participate in the Yi Peng Lantern Festival, and enjoy the vibrant night markets.",
             "image": "https://i.pinimg.com/474x/3e/d0/18/3ed018730dd416e95e034aec2247da97.jpg",
@@ -79,7 +79,7 @@
             "booking_price": "$150/person"
           },
           {
-            "id" : 3,
+            "id" :"3",
             "title": "Ayutthaya",
             "description": "Ayutthaya is a UNESCO World Heritage Site known for its ancient ruins and historical significance as the former capital of Thailand. Visitors can explore temple complexes like Wat Phra Si Sanphet, Wat Mahathat, and Wat Chaiwatthanaram, showcasing Thailand's rich cultural heritage.",
             "image": "https://i.pinimg.com/474x/88/68/59/886859ff7e55027291263ac383769e96.jpg",
@@ -88,7 +88,7 @@
             "booking_price": "$130/person"
           },
           {
-            "id" : 4,
+            "id" :"4",
             "title": "Phuket",
             "description": "Phuket is a popular beach destination known for its nightlife, water sports, and scenic beauty. Visitors can relax on beaches like Patong Beach, explore Phi Phi Islands on day trips, and enjoy activities such as snorkeling, diving, and island-hopping.",
             "image": "https://i.pinimg.com/474x/60/b9/41/60b9411910c5ab94bce9cfe435e0ad1d.jpg",
@@ -97,7 +97,7 @@
             "booking_price": "$250/person"
           },
           {
-            "id" : 5,
+            "id" :"5",
             "title": "Phi Phi Islands",
             "description": "The Phi Phi Islands are famous for their crystal-clear waters, white sandy beaches, and excellent diving and snorkeling spots. Visitors can explore Maya Bay, enjoy water activities like snorkeling and kayaking, and experience the vibrant nightlife on Phi Phi Don.",
             "image": "https://i.pinimg.com/474x/22/6d/db/226ddbeed3baab2e2eb038c44a07460a.jpg",
@@ -110,12 +110,12 @@
       {
         "name": "Indonesia",
         "description": "Indonesia, a Southeast Asian nation, is known for its vast archipelago comprising thousands of islands. It boasts diverse cultures, stunning landscapes, and a rich heritage. From the bustling capital Jakarta to the cultural hub of Bali and the wildlife wonders of Borneo, Indonesia offers a tapestry of experiences for travelers. The country's cuisine, traditional arts, and warm hospitality make it a favorite destination for adventurers and cultural enthusiasts alike.",
-        "img": "https://i.pinimg.com/564x/34/41/0e/34410e9e9fef5e6b218f3aa89f03eb0a.jpg",
+        "img":[ "https://i.pinimg.com/564x/34/41/0e/34410e9e9fef5e6b218f3aa89f03eb0a.jpg", "https://i.ibb.co/8s0SgNt/indonesia.jpg"],
         "id": 3,
 
         "touristSpots": [
           {
-            "id" : 1,
+            "id" :"1",
             "title": "Bali",
             "description": "Bali, known as the 'Island of the Gods,' is a paradise of stunning beaches, lush rice terraces, and vibrant culture. Visitors can explore ancient temples like Tanah Lot and Uluwatu, enjoy water sports in Nusa Dua, or experience the artistic and spiritual atmosphere of Ubud.",
             "image": "https://i.pinimg.com/474x/63/76/b7/6376b7561a1a51ca8338383e47d739fb.jpg",
@@ -124,7 +124,7 @@
             "booking_price": "$250/person"
           },
           {
-            "id" : 2,
+            "id" :"2",
             "title": "Borobudur Temple",
             "description": "Borobudur Temple, a UNESCO World Heritage Site, is one of the most impressive Buddhist monuments in the world. Located near Yogyakarta, this ancient temple complex showcases intricate carvings and stupas, offering a glimpse into Indonesia's rich cultural and religious history.",
             "image": "https://i.pinimg.com/474x/92/81/43/92814362894f576535559e0a04f5d7e9.jpg",
@@ -133,7 +133,7 @@
             "booking_price": "$150/person"
           },
           {
-            "id" : 3,
+            "id" :"3",
             "title": "Komodo National Park",
             "description": "Komodo National Park is a haven for nature enthusiasts, home to the iconic Komodo dragons. Apart from these legendary creatures, the park's marine ecosystem is teeming with colorful coral reefs, manta rays, and diverse marine life, making it a paradise for diving and snorkeling.",
             "image": "https://i.pinimg.com/564x/1d/7c/fc/1d7cfc98acf03a02b4c373443f265695.jpg",
@@ -142,7 +142,7 @@
             "booking_price": "$200/person"
           },
           {
-            "id" : 4,
+            "id" :"4",
             "title": "Raja Ampat Islands",
             "description": "The Raja Ampat Islands offer unparalleled natural beauty, with crystal-clear waters, lush forests, and incredible marine biodiversity. Divers and snorkelers can explore vibrant coral reefs, while adventurers can trek through pristine rainforests and discover hidden waterfalls.",
             "image": "https://i.pinimg.com/474x/26/bb/55/26bb55c30d55b73fe898433c227c16ba.jpg",
@@ -151,10 +151,10 @@
             "booking_price": "$300/person"
           },
           {
-            "id" : 5,
+            "id" :"5",
             "title": "Yogyakarta",
             "description": "Yogyakarta, often called Jogja, is a cultural hub known for its traditional arts, historic sites, and lively street scenes. Visitors can explore the Sultan's Palace (Kraton), witness ancient temples like Prambanan and Borobudur, shop for handicrafts in Malioboro, and savor local Javanese cuisine.",
-            "image": "https://i.pinimg.com/474x/2f/05/49/2f0549fbacbdebc753e68660d1a503b6.jpgjpg",
+            "image": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcR3jT6hd3BVsnNruuincsVh20yluo9nMaHVHY12CGLMhQ3yWeWDLRPrsnUgyGMp7rLJDfLZvFcYHWj_IwwOh1AeSrUQaUcdbVaRVuSrGQ",
             "total_visitor": 2000000,
             "living_cost": "$45/day",
             "booking_price": "$180/person"
@@ -164,12 +164,12 @@
       {
         "name": "Malaysia",
         "description": "Malaysia, located in Southeast Asia, is a diverse and culturally rich country known for its modern cities, lush rainforests, beautiful beaches, and vibrant mix of Malay, Chinese, Indian, and indigenous cultures. Kuala Lumpur, the capital city, is famous for its iconic Petronas Twin Towers, shopping districts like Bukit Bintang, and cultural landmarks such as the Batu Caves. Beyond the city, Malaysia offers natural wonders like the Cameron Highlands, Taman Negara National Park, and the idyllic islands of Langkawi and Penang. Visitors can enjoy a blend of urban sophistication, natural beauty, and delicious Malaysian cuisine, making it a popular destination for tourists.",
-        "img": "https://i.pinimg.com/474x/d4/3e/f3/d43ef32953c8cc10441255eb58a66d34.jpg",
+        "img":[ "https://i.pinimg.com/564x/d5/78/5c/d5785c628c9b32eb39c25e1122fbc8a9.jpg", "https://i.ibb.co/GVZp7L1/malaysia.jpg"],
         "id": 4,
 
         "touristSpots": [
           {
-            "id" : 1,
+            "id" :"1",
             "title": "Kuala Lumpur",
             "description": "Kuala Lumpur, the capital city of Malaysia, is a vibrant metropolis known for its modern skyscrapers, bustling street markets, and rich cultural heritage. Visitors can explore iconic landmarks like the Petronas Twin Towers, visit the historic Merdeka Square, experience the lively atmosphere of Bukit Bintang, and sample a variety of delicious Malaysian cuisine.",
             "image": "https://i.pinimg.com/474x/d4/3e/f3/d43ef32953c8cc10441255eb58a66d34.jpg",
@@ -178,7 +178,7 @@
             "booking_price": "$250/person"
           },
           {
-            "id" : 2,
+            "id" :"2",
             "title": "Langkawi",
             "description": "Langkawi is a stunning archipelago consisting of 99 islands in the Andaman Sea. Known for its pristine beaches, clear turquoise waters, and lush rainforests, Langkawi offers a perfect blend of relaxation and adventure. Visitors can enjoy water sports such as snorkeling, diving, and jet skiing, explore the Langkawi Sky Bridge, visit the Kilim Karst Geoforest Park, and indulge in duty-free shopping.",
             "image": "https://i.pinimg.com/474x/e1/e9/fb/e1e9fbdcea9fe82ef2efbd260ec6938c.jpg",
@@ -187,7 +187,7 @@
             "booking_price": "$300/person"
           },
           {
-            "id" : 3,
+            "id" :"3",
             "title": "Penang",
             "description": "Penang is a captivating island known for its diverse culture, heritage buildings, and mouthwatering street food. George Town, the capital of Penang, is a UNESCO World Heritage Site with charming colonial architecture, vibrant street art, and bustling markets. Visitors can explore historic sites such as Fort Cornwallis and Khoo Kongsi, visit the Penang Hill for panoramic views, and savor local delicacies like Char Kway Teow and Penang Laksa.",
             "image": "https://i.pinimg.com/474x/4e/47/da/4e47daa3fb7bab56d300198c1cb644c5.jpg",
@@ -196,7 +196,7 @@
             "booking_price": "$200/person"
           },
           {
-            "id" : 4,
+            "id" :"4",
             "title": "Cameron Highlands",
             "description": "Cameron Highlands is a cool and refreshing hill station known for its tea plantations, strawberry farms, and lush landscapes. Visitors can take scenic drives through rolling hills, visit tea estates like Boh Tea Plantation, explore the Mossy Forest for unique flora and fauna, and enjoy outdoor activities such as hiking and bird-watching.",
             "image": "https://i.pinimg.com/474x/b4/c6/d9/b4c6d9d74488af55b5d74993c3efa9c3.jpg",
@@ -205,7 +205,7 @@
             "booking_price": "$220/person"
           },
           {
-            "id" : 5,
+            "id" :"5",
             "title": "Taman Negara National Park",
             "description": "Taman Negara is Malaysia's oldest national park and is home to one of the world's oldest rainforests. Visitors can experience the beauty of untouched nature through activities like jungle trekking, canopy walks, night safaris to spot wildlife such as tigers and elephants, and river cruises along the Tembeling River. The park also offers opportunities for camping, fishing, and exploring ancient caves.",
             "image": "https://i.pinimg.com/564x/8a/57/0a/8a570a8a6454d0f2dcfb161e2b1c32c3.jpg",
@@ -218,12 +218,12 @@
       {
         "name": "Vietnam",
         "description": "Vietnam, located in Southeast Asia, is a country known for its rich history, stunning landscapes, and diverse culture. From bustling cities like Hanoi and Ho Chi Minh City to scenic destinations like Ha Long Bay and Hoi An, Vietnam offers a wide range of experiences for travelers. The country's cuisine, including dishes like Pho, Banh Mi, and Bun Cha, is celebrated worldwide. Vietnam's natural beauty, ancient temples, and vibrant markets attract millions of tourists each year.",
-        "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSpYyZI-alZgeqFbv5DaXOqrbPIV4XGnsUD6f9zguoreMkmVXl4MB4PlenfNwR0F3NmuOOKKPfeLU7xzbeesojxI8BaDEDE9DMZKmew6L4",
+        "img":[ "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSpYyZI-alZgeqFbv5DaXOqrbPIV4XGnsUD6f9zguoreMkmVXl4MB4PlenfNwR0F3NmuOOKKPfeLU7xzbeesojxI8BaDEDE9DMZKmew6L4", "https://i.ibb.co/tLvnPWR/vietnam.jpg"],
         "id": 5,
 
         "touristSpots": [
           {
-            "id" : 1,
+            "id" :"1",
             "title": "Ha Long Bay",
             "description": "Ha Long Bay, located in Quang Ninh Province, is a UNESCO World Heritage Site and one of Vietnam's most iconic natural wonders. It features emerald waters dotted with thousands of limestone islands and islets, each topped with lush vegetation. Visitors can take boat cruises to explore the bay, visit fishing villages, and marvel at the unique karst formations. Ha Long Bay offers breathtaking sunsets and is a paradise for photographers and nature enthusiasts alike.",
             "image": "https://i.pinimg.com/474x/81/0e/7a/810e7a51c5c945fabf8051ea46f7305b.jpg",
@@ -232,7 +232,7 @@
             "booking_price": "$150/person"
           },
           {
-            "id" : 2,
+            "id" :"2",
             "title": "Ho Chi Minh City",
             "description": "Ho Chi Minh City, formerly known as Saigon, is the largest city in Vietnam and a bustling hub of culture, history, and commerce. It is renowned for its French colonial architecture, vibrant street markets like Ben Thanh Market, and historic landmarks such as the Reunification Palace and Notre Dame Cathedral Basilica of Saigon. Visitors can explore the city's museums, enjoy traditional Vietnamese cuisine, and experience the energetic nightlife.",
             "image": "https://i.pinimg.com/564x/ae/17/d8/ae17d8585b8d214ea2398b3ab17f1e31.jpg",
@@ -241,7 +241,7 @@
             "booking_price": "$180/person"
           },
           {
-            "id" : 3,
+            "id" :"3",
             "title": "Hoi An Ancient Town",
             "description": "Hoi An Ancient Town, situated in Quang Nam Province, is a UNESCO World Heritage Site known for its exceptionally well-preserved architecture, reflecting a blend of Vietnamese, Chinese, and Japanese influences. The town is famous for its lantern-lit streets, charming riverside views, and traditional wooden houses. Visitors can explore ancient temples, enjoy boat rides along the Thu Bon River, and shop for handicrafts and tailor-made clothing.",
             "image": "https://i.pinimg.com/564x/aa/df/d1/aadfd15568cbd1745a20bb87ba131994.jpg",
@@ -250,7 +250,7 @@
             "booking_price": "$160/person"
           },
           {
-            "id" : 4,
+            "id" :"4",
             "title": "Phong Nha Caves",
             "description": "Phong Nha-Ke Bang National Park, located in Quang Binh Province, is a UNESCO World Heritage Site renowned for its spectacular cave systems. The park is home to some of the world's most stunning caves, including Son Doong, the largest cave chamber by volume. Visitors can explore underground rivers, magnificent stalactites and stalagmites, and diverse ecosystems. Phong Nha Caves offer unforgettable adventures for spelunkers and nature enthusiasts.",
             "image": "https://i.pinimg.com/564x/11/f7/af/11f7af66933e6ab8c992573c283fd0ba.jpg",
@@ -259,7 +259,7 @@
             "booking_price": "$140/person"
           },
           {
-            "id" : 5,
+            "id" :"5",
             "title": "Mekong Delta",
             "description": "The Mekong Delta, often referred to as the 'Rice Bowl' of Vietnam, is a vast region in southern Vietnam known for its fertile lands, winding rivers, and vibrant floating markets. The delta is a vital agricultural area, producing rice, fruits, and vegetables. Visitors can take boat tours along the Mekong River, visit traditional villages, sample local cuisine, and witness the unique way of life in this water-rich region.",
             "image": "https://i.pinimg.com/474x/80/10/87/80108743854dd4f7393e07acef6f3878.jpg",
@@ -272,12 +272,12 @@
       {
         "name": "Cambodia",
         "description": "Cambodia, located in Southeast Asia, is known for its rich history, ancient temples, and vibrant culture. The country is home to the iconic Angkor Wat complex, a UNESCO World Heritage Site and one of the largest religious monuments in the world. Cambodia's cultural heritage includes traditional dance, music, and cuisine influenced by Khmer traditions. Visitors to Cambodia can explore historic sites, lush landscapes, and experience the warmth of Khmer hospitality.",
-        "img": "https://i.pinimg.com/564x/7c/6a/4c/7c6a4c0ad3ec4c4ee4c355999ce27029.jpg",
+        "img":[ "https://i.pinimg.com/564x/7c/6a/4c/7c6a4c0ad3ec4c4ee4c355999ce27029.jpg", "https://i.ibb.co/rbR3ZbZ/cambodia.jpg"],
         "id": 6,
 
         "touristSpots": [
           {
-            "id" : 1,
+            "id" :"1",
             "title": "Angkor Wat",
             "description": "Angkor Wat is a UNESCO World Heritage Site and one of the largest religious monuments in the world. Built in the 12th century by King Suryavarman II, it represents the pinnacle of Khmer architecture and is dedicated to the Hindu god Vishnu. The temple complex spans over 400 acres and includes intricate carvings, bas-reliefs, and the iconic central tower. Visitors can explore the various temples, galleries, and courtyards while marveling at the historical and artistic significance of this ancient wonder.",
             "image": "https://i.pinimg.com/736x/35/f6/4f/35f64f790f59e0ce49e69665ace86614.jpg",
@@ -286,7 +286,7 @@
             "booking_price": "$150/person"
           },
           {
-            "id" : 2,
+            "id" :"2",
             "title": "Siem Reap",
             "description": "Siem Reap is a charming city located near the Angkor Archaeological Park. Besides being a gateway to Angkor Wat, Siem Reap offers a vibrant mix of culture, history, and modern amenities. Visitors can explore the Old Market with its bustling atmosphere and diverse array of goods, visit traditional Cambodian dance performances, and sample local cuisine at the lively Pub Street. The city also has museums, art galleries, and opportunities for cycling tours to explore the countryside and nearby temples.",
             "image": "https://i.pinimg.com/564x/1b/6e/16/1b6e16c74a37f7538688b6157f54aa0b.jpg",
@@ -295,7 +295,7 @@
             "booking_price": "$120/person"
           },
           {
-            "id" : 3,
+            "id" :"3",
             "title": "Phnom Penh",
             "description": "Phnom Penh, the capital city of Cambodia, is a vibrant metropolis with a rich history and cultural heritage. Visitors can explore the Royal Palace, home to the King of Cambodia, and the Silver Pagoda with its impressive collection of Buddha statues. The National Museum of Cambodia offers insights into Khmer art and history, while the Tuol Sleng Genocide Museum and Killing Fields provide a sobering look at Cambodia's tragic past. Phnom Penh also has a lively riverfront area, bustling markets, and a growing culinary scene.",
             "image": "https://i.pinimg.com/564x/84/dd/02/84dd02cc13aac4446c9602c750d3a1e9.jpg",
@@ -304,7 +304,7 @@
             "booking_price": "$160/person"
           },
           {
-            "id" : 4,
+            "id" :"4",
             "title": "Kep",
             "description": "Kep is a tranquil coastal town known for its relaxed atmosphere and natural beauty. Visitors can enjoy the scenic beaches, indulge in fresh seafood at the crab market, and explore the Kep National Park with its hiking trails and panoramic views. The town is also famous for its French colonial architecture and abandoned villas, offering a glimpse into its past as a luxurious retreat for the elite. Kep is an ideal destination for those seeking a peaceful seaside getaway away from the crowds.",
             "image": "https://i.pinimg.com/564x/3b/dd/c6/3bddc6a2f341ed20962fe6b9fb2540dd.jpg",
@@ -313,7 +313,7 @@
             "booking_price": "$180/person"
           },
           {
-            "id" : 5,
+            "id" :"5",
             "title": "Bokor National Park",
             "description": "Bokor National Park is a protected area in Cambodia known for its diverse ecosystems and natural beauty. The park encompasses dense forests, waterfalls, and wildlife habitats, making it a haven for nature enthusiasts and adventure seekers. Visitors can explore hiking trails leading to scenic viewpoints, spot wildlife such as gibbons and hornbills, and visit historical sites like the Bokor Hill Station, an abandoned French colonial resort with panoramic views of the surrounding landscapes.",
             "image": "https://i.pinimg.com/564x/5e/34/97/5e34972e150463a6e6d0968e1935a0f7.jpg",

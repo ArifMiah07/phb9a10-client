@@ -3,6 +3,7 @@
 ## B9 A10 Type-01
 
 ###### [note: i tried to use json data from database(i uploaded it but that was broken) but my json data is very big and it is very time-consuming to insert every property line by line in mongodb (sorry). so i decided to use fake data and uploaded it later on database properly.  ---[load shedding er karone onke pichiye porechi vai, nijer proti hotasa kaj korche]]
+##### [note: swiper wasn't in my followed design]
 
 #### This is a Tourism Management website
 - |what is a Tourism Management website?

@@ -3,6 +3,7 @@ import './Home.css'
 import Header from "../shared/Header/Header";
 import { useEffect, useState } from "react";
 import Countries from "../../components/Countries/Countries";
+import Aside from "../../components/Aside/Aside";
 
 const Home = () => {
     const [southAsiaData, setSouthAsiaData] = useState([]);
@@ -26,12 +27,18 @@ const Home = () => {
                 <div className="relative ">
                     <Header></Header>
                 </div>
-                <div>
-                    {
-                        southAsiaData && southAsiaData.map((southAsia, idx) => (
-                            <Countries key={idx} southAsia={southAsia} ></Countries>
-                        ))
-                    }
+                <div className="flex flex-col md:flex md:flex-col lg:flex lg:flex-row">
+                    <div className="p-6">
+                        {
+                            southAsiaData && southAsiaData.map((southAsia, idx) => (
+                                <Countries key={idx} southAsia={southAsia} ></Countries>
+                            ))
+                        }
+                    </div>
+                    {/* aside */}
+                    <div className="w-fit h-fit ">
+                        <Aside></Aside>
+                    </div>
                 </div>
             </div>
         </div>

@@ -3,9 +3,10 @@ import Root from "../layouts/Root/Root";
 import Home from "../pages/Home/Home";
 import NotFound from "../pages/shared/NotFound/NotFound";
 import Countries from "../components/Countries/Countries";
-import CountryDetails from "../components/CountryDetails/CountryDetails";
+
 import Country from "../components/Country/Country";
 import About from "../pages/About/About";
+import City from "../components/City/City";
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,11 @@ const router = createBrowserRouter([
             {
                 path: '/country/:id',
                 element: <Country></Country>,
+                loader: ()=> fetch('/south_asia.json')
+            },
+            {
+                path: '/city/:_id/touristSpots/:touristSpotId',
+                element: <City></City>,
                 loader: ()=> fetch('/south_asia.json')
             }
             
