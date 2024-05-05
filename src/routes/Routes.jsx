@@ -1,6 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../layouts/Root/Root";
 import Home from "../pages/Home/Home";
+import NotFound from "../pages/shared/NotFound/NotFound";
+import Countries from "../components/Countries/Countries";
+import Country from "../components/Country/Country";
 
 // import Home from "../Pages/Home/Home";
 // import Root from "../Layouts/Root/Root";
@@ -19,43 +22,22 @@ const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>, 
-        // errorElement: <ErrorPage></ErrorPage>,
+        errorElement: <NotFound></NotFound>,
         children: [
             {
                 path: '/',
                 element: <Home></Home>,
-                // errorElement: <ErrorPage></ErrorPage>
+            },
+            {
+                path: '/countries',
+                element: <Countries></Countries>
+            },
+            {
+                path: '/country/:id',
+                element: <Country></Country>,
+                loader: ()=> fetch('/south_asia.json')
             }
-            // ,
-            // {
-            //     path: '/sign-in',
-            //     element: <LogIn></LogIn>
-            // },
-            // {
-            //     path: '/register',
-            //     element: <Register></Register>
-            // },
-            // {
-            //     path: '/update-profile',
-            //     element: <PrivateRoute> <UpdateProfile></UpdateProfile></PrivateRoute>
-            // },
-            // {
-            //     path: '/user-profile',
-            //     element: <PrivateRoute><UserProfile></UserProfile></PrivateRoute>
-            // },
-            // {
-            //     path: '/about',
-            //     element: <About></About>
-            // },
-            // {
-            //     path: '/blog',
-            //     element: <PrivateRoute><Blog></Blog></PrivateRoute>
-            // },
-            // {
-            //     path: '/apartments-card-details/:id',
-            //     element: <PrivateRoute><ApartmentCardDetails></ApartmentCardDetails></PrivateRoute>,
-            //     loader: ()=> fetch('/apartments.json')
-            // }
+            
         ]
     }    
 ]);

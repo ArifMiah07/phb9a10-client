@@ -1,6 +1,7 @@
 import header from '../../../../public/images/wallpaperflare.com_wallpaper.jpg';
 import Navbar from '../Navbar/Navbar';
 import '../../../Styles/Styles.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -16,7 +17,7 @@ const Header = () => {
                     </div>
                     {/* btn */}
                     <div className=' w-full h-fit mx-auto flex lg:flex lg:flex-row justify-center gap-4 mulish '>
-                        <button className=' w-[380px] border border-white p-3 text-[20px] text-black py-1 bg-white hover:bg-transparent hover:text-white md:w-fit md:bg-white md:hover:bg-transparent md:hover:text-white lg:w-fit lg:bg-transparent lg:hover:bg-white lg:text-white lg:hover:text-black'>Explore</button>
+                        <Link to={'/countries'}><button className=' w-[380px] border border-white p-3 text-[20px] text-black py-1 bg-white hover:bg-transparent hover:text-white md:w-fit md:bg-white md:hover:bg-transparent md:hover:text-white lg:w-fit lg:bg-transparent lg:hover:bg-white lg:text-white lg:hover:text-black'>Explore</button></Link>
                         <button className=' w-[380px] border border-white p-3 text-[20px] text-black py-1 bg-white hover:bg-transparent hover:text-white md:w-fit md:bg-white md:hover:bg-transparent md:hover:text-white lg:w-fit lg:bg-transparent lg:hover:bg-white lg:text-white lg:hover:text-black'>Join with us</button>
                     </div>
                 </div>

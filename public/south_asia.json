@@ -1,6 +1,7 @@
 [
       {
         "name": "Bangladesh",
+        "description": "Bangladesh, located in South Asia, is known for its lush landscapes, vibrant culture, and rich history. It is home to the world's largest river delta, the Sundarbans mangrove forest, and a diverse range of flora and fauna. The country's cultural heritage includes traditional music, dance, and art forms like Nakshi Kantha embroidery and Jamdani weaving. Bangladesh offers visitors a blend of natural beauty, historical sites, and warm hospitality.",
         "img": "https://i.pinimg.com/originals/52/dd/dd/52dddd8d3af5708cbf2d76409f450741.jpg",
         "id": 1,
 
@@ -54,6 +55,7 @@
       },
       {
         "name": "Thailand",
+        "description": "Thailand, known as the Land of Smiles, is famous for its tropical beaches, ornate temples, and vibrant culture. From bustling cities like Bangkok to serene islands like Phuket and Koh Samui, Thailand offers a diverse range of experiences for travelers. The country's cuisine, which includes dishes like Pad Thai, Tom Yum Goong, and Mango Sticky Rice, is renowned worldwide. Thailand's warm hospitality and natural beauty attract millions of tourists each year.",
         "img": "https://i.pinimg.com/564x/8b/84/49/8b8449cf9de2e1880cd774be3157960b.jpg",
         "id": 2,
 
@@ -107,6 +109,7 @@
       },
       {
         "name": "Indonesia",
+        "description": "Indonesia, a Southeast Asian nation, is known for its vast archipelago comprising thousands of islands. It boasts diverse cultures, stunning landscapes, and a rich heritage. From the bustling capital Jakarta to the cultural hub of Bali and the wildlife wonders of Borneo, Indonesia offers a tapestry of experiences for travelers. The country's cuisine, traditional arts, and warm hospitality make it a favorite destination for adventurers and cultural enthusiasts alike.",
         "img": "https://i.pinimg.com/564x/34/41/0e/34410e9e9fef5e6b218f3aa89f03eb0a.jpg",
         "id": 3,
 
@@ -160,6 +163,7 @@
       },
       {
         "name": "Malaysia",
+        "description": "Malaysia, located in Southeast Asia, is a diverse and culturally rich country known for its modern cities, lush rainforests, beautiful beaches, and vibrant mix of Malay, Chinese, Indian, and indigenous cultures. Kuala Lumpur, the capital city, is famous for its iconic Petronas Twin Towers, shopping districts like Bukit Bintang, and cultural landmarks such as the Batu Caves. Beyond the city, Malaysia offers natural wonders like the Cameron Highlands, Taman Negara National Park, and the idyllic islands of Langkawi and Penang. Visitors can enjoy a blend of urban sophistication, natural beauty, and delicious Malaysian cuisine, making it a popular destination for tourists.",
         "img": "https://i.pinimg.com/474x/d4/3e/f3/d43ef32953c8cc10441255eb58a66d34.jpg",
         "id": 4,
 
@@ -213,6 +217,7 @@
       },
       {
         "name": "Vietnam",
+        "description": "Vietnam, located in Southeast Asia, is a country known for its rich history, stunning landscapes, and diverse culture. From bustling cities like Hanoi and Ho Chi Minh City to scenic destinations like Ha Long Bay and Hoi An, Vietnam offers a wide range of experiences for travelers. The country's cuisine, including dishes like Pho, Banh Mi, and Bun Cha, is celebrated worldwide. Vietnam's natural beauty, ancient temples, and vibrant markets attract millions of tourists each year.",
         "img": "https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcSpYyZI-alZgeqFbv5DaXOqrbPIV4XGnsUD6f9zguoreMkmVXl4MB4PlenfNwR0F3NmuOOKKPfeLU7xzbeesojxI8BaDEDE9DMZKmew6L4",
         "id": 5,
 
@@ -266,6 +271,7 @@
       },
       {
         "name": "Cambodia",
+        "description": "Cambodia, located in Southeast Asia, is known for its rich history, ancient temples, and vibrant culture. The country is home to the iconic Angkor Wat complex, a UNESCO World Heritage Site and one of the largest religious monuments in the world. Cambodia's cultural heritage includes traditional dance, music, and cuisine influenced by Khmer traditions. Visitors to Cambodia can explore historic sites, lush landscapes, and experience the warmth of Khmer hospitality.",
         "img": "https://i.pinimg.com/564x/7c/6a/4c/7c6a4c0ad3ec4c4ee4c355999ce27029.jpg",
         "id": 6,
 
