@@ -1,24 +1,22 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import CountryDetails from "../CountryDetails/CountryDetails";
 // import { useSouthAsiaContext } from "../../contexts/southAsiaContext";
 
 const Country = () => {
 
-    // const {southAsiaData} = useSouthAsiaContext();
-    const data = useLoaderData();
-    const id = useParams();
+    const southAsiaData = useLoaderData();
+    const {id} = useParams();
+    const intId = parseInt(id);
+    const saData = southAsiaData.find(sad => sad.id === intId);
 
-    // const intId = parseInt(id);
+    console.log("id: data", id, saData);
 
-    // const data = sAData.find(d=> d.id !== intId) 
-
-    console.log('keno?',data);
-    // console.log('keno?',data);
-
-    // console.log('sad', southAsiaData);
+    console.log('keno?',southAsiaData);
     return (
         <div>
             <h1>this is country!! </h1>
             <div>
+                <CountryDetails key={saData.id} saData={saData}></CountryDetails>
             </div>
         </div>
     );

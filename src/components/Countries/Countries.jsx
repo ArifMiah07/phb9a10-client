@@ -19,11 +19,11 @@ const Countries = ({southAsia}) => {
           <p className='mulish text-[15px] text-[#3a3a3a]'>{description.slice(0, 170)} ... <span className='bg-gray-100 px-2 underline font-thin '><Link to={`/country/${id}`}>read more</Link></span> </p>
         </div>
       </div>
-      {/* <div>
-        {
+      <div>
+        {/* {
           touristSpots.map((country, idx) => <Country key={idx} country={country}></Country>)
-        }
-      </div> */}
+        } */}
+      </div>
     </div>
   );
 };

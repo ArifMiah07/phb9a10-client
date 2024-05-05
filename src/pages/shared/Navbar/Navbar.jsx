@@ -24,6 +24,7 @@ const Navbar = () => {
                     <li> <NavLink to="/europe"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'  }> Europe </NavLink> </li> 
                     <li> <NavLink to="/australia"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}  > Australia </NavLink> </li> 
                     <li> <NavLink to="/africa"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'  }> Africa </NavLink> </li> 
+                    <li> <NavLink to="/about"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'  }> About</NavLink> </li> 
                     </ul>
                 </div>
             </div>
@@ -35,6 +36,7 @@ const Navbar = () => {
                     <li> <NavLink to="/europe"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'  }> Europe </NavLink> </li> 
                     <li> <NavLink to="/australia"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'}  > Australia </NavLink> </li> 
                     <li> <NavLink to="/africa"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'  }> Africa </NavLink> </li> 
+                    <li> <NavLink to="/about"  className={({isActive})=> isActive ? 'text-[#fff]  rounded-0 work-sans font-semibold text-[18px] px-3 py-2' : ' text-[18px]'  }> About </NavLink> </li> 
                 </ul>
             </div>
             
