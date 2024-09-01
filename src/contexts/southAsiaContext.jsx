@@ -10,7 +10,7 @@ export const SouthAsiaContext = createContext(null);
 export const useSouthAsiaContext = () => useContext(SouthAsiaContext)
 
 
-// Json data provider component
+// provider
 export const SouthAsiaDataProvider = ({ children }) => {
 
 
@@ -21,7 +21,7 @@ export const SouthAsiaDataProvider = ({ children }) => {
         fetch('/south_asia.json')
         .then(res => res.json())
         .then(data => {
-            console.log(data);
+            // console.log(data);
             setSouthAsiaData(data);
         })
         .catch(error =>{

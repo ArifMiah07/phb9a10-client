@@ -3,7 +3,7 @@ import { useSouthAsiaContext } from "../../contexts/southAsiaContext";
 const Aside = () => {
 
     const {southAsiaData} = useSouthAsiaContext();
-    console.log(southAsiaData);
+    // console.log(southAsiaData);
     return (
         <div className="flex flex-row flex-wrap lg:flex lg:flex-col justify-center gap-12">
             <div className="bg-white lg:p-6 flex flex-col justify-center">

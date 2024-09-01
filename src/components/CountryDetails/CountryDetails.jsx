@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const CountryDetails = ({saData}) => {
     const {name, img, description, touristSpots}  = saData;
-    console.log(saData.name, touristSpots);
+    // console.log(saData.name, touristSpots);
     
     return (
         <div>
