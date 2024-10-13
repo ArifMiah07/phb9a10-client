@@ -1,12 +1,16 @@
+// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+
 import header1 from '../../../../public/images/wallpaperflare.com_wallpaper.jpg';
 import header2 from '../../../../public/images/cover-2.jpg';
 import header3 from '../../../../public/images/cover-3.jpg';
 import Navbar from '../Navbar/Navbar';
 import '../../../Styles/Styles.css';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 const Header = () => {
     return (
@@ -15,17 +19,14 @@ const Header = () => {
                 {/* Hero Swiper Section */}
                 <Swiper
                     spaceBetween={0}
-                    centeredSlides={true}
-                    autoplay={{
-                        delay: 3000, // 3 seconds delay
-                        disableOnInteraction: false,
-                    }}
-                    pagination={{
-                        clickable: true,
-                    }}
-                    navigation={true}
-                    loop={true} // Infinite loop
-                    className="w-full sm:h-[500px] md:h-[700px] lg:h-[800px]" // Set a fixed height for the Swiper
+                    // autoplay={{
+                    //     delay: 3000, // 3 seconds delay
+                    // }}
+                    autoplay={true}
+                    pagination={true}
+                    navigation={true} modules={[Navigation, Pagination, Autoplay]}
+                    loop={true} // Infinite loop// Add required Swiper modules
+                    className="w-full xs:h-[600px] sm:h-[600px] md:h-[700px] lg:h-[800px]" // Set a fixed height for the Swiper
                 >
                     <SwiperSlide>
                         <img className='w-full h-full object-cover' src={header1} alt="First Banner" />
@@ -64,8 +65,8 @@ const Header = () => {
                 </div>
             </div>
 
-             {/* floating text div */}
-             <div className='z-20 my-24 md:mb-24 lg:mb-40 md:relative lg:relative w-10/12 md:w-10/12 lg:w-10/12 bg-red-400  mx-auto'>
+            {/* Floating Text Div */}
+            <div className='z-20 my-24 md:mb-24 lg:mb-40 md:relative lg:relative w-10/12 md:w-10/12 lg:w-10/12 bg-red-400  mx-auto'>
                 <div className='p-8   md:absolute md:-top-32 lg:absolute lg:-top-32 bg-[#fff]  w-full mx-auto drop-shadow-xl'>
                     <h1 className='mb-6 text-[#3A3A3A] text-[20px] lg:text-[30px] text-center playfair'>Your Ultimate Sustainable Travel Guide Experience</h1>
                     <p className='block text-[#3a3a3adc] text-[14px] lg:text-[15px] lg:hidden mulish'>Embark on a transformative journey with Eco Wonderland, the leading tourist management platform dedicated to sustainable travel, immersive nature experiences, and fostering environmental stewardship on a global scale.</p>
@@ -77,6 +78,7 @@ const Header = () => {
 };
 
 export default Header;
+
 
 
 // import header from '../../../../public/images/wallpaperflare.com_wallpaper.jpg';
