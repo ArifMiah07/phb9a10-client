@@ -2,9 +2,11 @@ import { NavLink } from 'react-router-dom';
 import eco_wonderland from '../../../../public/images/eco-wonderland-cropted.png'
 import '../../../index.css'
 import CustomDropdown from '../../../components/CustomDropdown';
+// import { useEffect, useState } from 'react';
 
 
 const Navbar = () => {
+  const users = false;
 
     const navLinks = (
         <>
@@ -46,7 +48,9 @@ const Navbar = () => {
                 : 'text-[18px]'
               }
             >
-              Register
+              {
+                users ? "Logout" : "Register"
+              }
             </NavLink>
           </li>
         </>
