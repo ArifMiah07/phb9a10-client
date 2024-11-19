@@ -7,13 +7,13 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyAv-kc2dYe4St1n3HRYDrDoICWsk8is-Qk",
-  authDomain: "eco-wonderland.firebaseapp.com",
-  projectId: "eco-wonderland",
-  storageBucket: "eco-wonderland.firebasestorage.app",
-  messagingSenderId: "32491332555",
-  appId: "1:32491332555:web:6fd0870dc362311d514c4e",
-  measurementId: "G-7NFYM3B3HF"
+  apiKey: process.env.VITE_apiKey ,
+  authDomain: process.env.VITE_authDomain ,
+  projectId: process.env.VITE_projectId ,
+  storageBucket: process.env.VITE_storageBucket ,
+  messagingSenderId: process.env.VITE_messagingSenderId ,
+  appId: process.env.VITE_appId ,
+  measurementId: process.env.VITE_measurementId ,
 };
 
 // Initialize Firebase
